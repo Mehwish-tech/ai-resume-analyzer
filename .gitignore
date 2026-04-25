@@ -1,0 +1,35 @@
+# ===========================
+# Python / Backend
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+.pytest_cache/
+
+# ===========================
+# Node.js / Frontend
+# ===========================
+node_modules/
+dist/
+build/
+.DS_Store
+
+# ===========================
+# API Keys & Secrets (NEVER upload these)
+# ===========================
+.env
+.env.local
+.env.production
+*.key
+secrets.json
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/settings.json
